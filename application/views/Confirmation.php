@@ -12,7 +12,7 @@
 
         <div id="confirmation">
 
-            <p>
+            <p style="">
 
                 Votre message a bien été ajouté à la base de données. Nous vous remercions de votre commentaire.
                 Veuillez attendre vous allez ếtre redirigé vers la page d'accueil.
