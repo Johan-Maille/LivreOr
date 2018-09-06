@@ -15,7 +15,7 @@
         <div id="messages">
 
 
-          <input type="button" value="Ecrire un commentaire" onclick="javascript:location.href='<?php echo base_url() ?>index.php/Forum/ecrire'">
+          <input type="button" value="Ecrire un commentaire" onclick="javascript:location.href='<?php echo base_url() ?>Forum/ecrire'">
 
           <?php foreach($messages as $message): ?>
 
