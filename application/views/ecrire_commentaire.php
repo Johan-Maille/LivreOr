@@ -42,7 +42,7 @@
 
             <p>
 
-                <input type="submit" value="Enregistrer votre commentaire" /> <input type="button" value="Retour" onclick="javascript:location.href='http://localhost/codeigniter/index.php/Forum'">
+                <input type="submit" value="Enregistrer votre commentaire" /> <input type="button" value="Retour" onclick="javascript:location.href='<?php echo base_url() ?>index.php/Forum'">
 
             </p>
 
