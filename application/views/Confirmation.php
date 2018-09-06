@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>Un livre d'or</title>
+        <title>Livre d'or</title>
         <meta http-equiv="refresh" content="3; URL=http://localhost/codeigniter/index.php/Forum">
     </head>
 

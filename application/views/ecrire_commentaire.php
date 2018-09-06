@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>Un livre d'or</title>
+        <title>Livre d'or</title>
 
     </head>
 
