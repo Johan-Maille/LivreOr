@@ -9,7 +9,7 @@
         <title>Livre d'or</title>
         <meta http-equiv="Content-Type" content="text/html; charset=<?php echo $this->config->item('charset'); ?>" />
 
-       <link rel="stylesheet" type="text/css" media="screen" href="<?php echo css_url('codeigniter/asset/css/style.css'); ?>" />
+       <link rel="stylesheet" type="text/css" media="screen" href="<?php echo css_url('style'); ?>" />
 
     </head>
 
@@ -31,8 +31,8 @@
           <?php foreach($messages as $message): ?>
 
                 <div id="num_<?php echo $message->id; ?>">
-
-                    <p>
+                  <p style="border: 3px black solid;">
+                    <p >
 
                         <a href="#num_><?php echo $message->id; ?>">#</a>
 
@@ -43,7 +43,7 @@
                     </p>
 
                     <div class="contenu_commentaire"><?php echo nl2br(htmlentities($message->message)); ?></div>
-
+                  </p>
                 </div>
 
             <?php endforeach; ?>

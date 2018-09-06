@@ -7,7 +7,7 @@
         <title>Livre d'or</title>
         <meta http-equiv="Content-Type" content="text/html; charset=<?php echo $this->config->item('charset'); ?>" />
 
-                <link rel="stylesheet" type="text/css" media="screen" href="<?php echo css_url('codeigniter/asset/css/style.css'); ?>" />
+                <link rel="stylesheet" type="text/css" media="screen" href="<?php echo css_url('style'); ?>" />
     </head>
 
     <body>

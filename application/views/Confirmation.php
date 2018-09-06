@@ -6,7 +6,7 @@
 
         <title>Livre d'or</title>
         <meta http-equiv="refresh" content="3; URL=<?php echo base_url() ?>">
-         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo css_url('codeigniter/asset/css/style.css'); ?>" />
+         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo css_url('style'); ?>" />
     </head>
 
     <body>
