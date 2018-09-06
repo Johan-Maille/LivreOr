@@ -23,7 +23,7 @@ class Commentaires extends CI_Model
 
 
 
-    public function liste_commentaires($nb=10, $debut = 0)
+    public function liste_commentaires($nb=15, $debut = 0)
 
 {
 
@@ -39,6 +39,14 @@ class Commentaires extends CI_Model
             ->get()
 
             ->result();
+
+}
+
+public function count()
+
+{
+
+    return $this->db->count_all($this->table);
 
 }
 
