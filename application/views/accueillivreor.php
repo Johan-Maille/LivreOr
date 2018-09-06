@@ -11,10 +11,10 @@
 
 
     <body>
-
+      <h1 style="background-color:blue">Livre d'Or</h1>
         <div id="messages">
 
-          <!-- <a href="Forum/ecrire" > Ecrire un nouveau commentaire --> </a> 
+
           <input type="button" value="Ecrire un commentaire" onclick="javascript:location.href='Forum/ecrire'">
 
           <?php foreach($messages as $message): ?>
