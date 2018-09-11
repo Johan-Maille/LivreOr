@@ -23,12 +23,13 @@ class Commentaires extends CI_Model
 
 
 
-    public function liste_commentaires($nb=15, $debut = 0)
+    public function liste_commentaires($nb= 15, $debut = 0)
 
 {
 
 
-    return $this->db->select('`id`, `pseudo`, `message`, DATE_FORMAT(`date`,\'%d/%m/%Y &agrave; %H:%i:%s\') AS \'date\'', false)
+    // return $this->db->select('`id`, `pseudo`, `message`, DATE_FORMAT(`date`, %d/%m/%Y &agrave; %H:%i:%s ) AS date', false)
+    return $this->db->select ('id, pseudo, message, date', false)
 
             ->from($this->table)
 
