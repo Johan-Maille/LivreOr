@@ -28,7 +28,18 @@
 
           <input type="button" value="Ecrire un commentaire" onclick="javascript:location.href='<?php echo base_url() ?>Forum/ecrire'">
 
-          <?php foreach($messages as $message): ?>
+          <?php foreach($messages as $message):
+
+
+            $date=date("d-m-Y", strtotime($message->date));
+
+
+
+
+
+            ?>
+
+
 
                 <div id="num_<?php echo $message->id; ?>">
                   <p style="border: 3px black solid;">
@@ -38,7 +49,7 @@
 
                         Par <span  class="pseudo_commentaire"><?php echo htmlentities($message->pseudo); ?></span>
 
-                        le <span class="date_commentaire"><?php echo $message->date; ?></span>
+                        le <span class="date_commentaire"><?php echo $date; ?></span>
 
                     </p>
 
