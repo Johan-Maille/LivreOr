@@ -27,7 +27,6 @@ class Commentaires extends CI_Model
 
 {
 
-
     // return $this->db->select('`id`, `pseudo`, `message`, DATE_FORMAT(`date`, %d/%m/%Y &agrave; %H:%i:%s ) AS date', false)
     return $this->db->select ('id, pseudo, message, date', false)
 
